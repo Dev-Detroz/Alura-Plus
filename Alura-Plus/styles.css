@@ -153,6 +153,8 @@ body {
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    font-style: var(--cor-de-fundo);
+    /*background-color: var(--botao-azul-efeito);*/
+    /*font-style: var(--cor-de-fundo);*/
+    transform: scale(1.02);
+    transition: 0.12s;
 }
